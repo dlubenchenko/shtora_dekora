@@ -51,19 +51,22 @@ body {
 .logo-header {
     display: flex;
     font-size: 1.5rem;
+    font-weight: 600;
 }
 .tm {
     font-size: .5rem;
 }
 .logo-theme {
     font-size: .75rem;
-    letter-spacing: .11rem;
+    letter-spacing: .095rem;
 }
 .menu {
     &__body {}
     &__list {
         display: flex;
         column-gap: 2.75rem;
+        font-weight: 700;
+        line-height: 1.25rem;
     }
     &__item {
         &:hover {

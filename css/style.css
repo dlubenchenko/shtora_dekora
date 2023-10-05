@@ -52,6 +52,7 @@ body {
 .logo-header {
   display: flex;
   font-size: 1.5rem;
+  font-weight: 600;
 }
 
 .tm {
@@ -60,13 +61,15 @@ body {
 
 .logo-theme {
   font-size: 0.75rem;
-  letter-spacing: 0.11rem;
+  letter-spacing: 0.095rem;
 }
 
 .menu__list {
   display: flex;
   -moz-column-gap: 2.75rem;
        column-gap: 2.75rem;
+  font-weight: 700;
+  line-height: 1.25rem;
 }
 .menu__item:hover {
   text-decoration: underline;
