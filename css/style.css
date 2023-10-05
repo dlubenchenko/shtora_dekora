@@ -79,4 +79,46 @@ body {
 }
 .shop-img {
   width: 2rem;
+}
+
+.welcome {
+  background: url(../img/welcome/1.jpg) center center no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+.welcome__container {
+  display: flex;
+  justify-content: end;
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 7rem 16.5rem;
+}
+.welcome__block {
+  width: 30%;
+}
+.welcome__header-text {
+  color: var(--black-1, #2F302C);
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.75rem;
+}
+.welcome__header-title {
+  color: #2F302C;
+  font-size: 6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 6.25rem;
+}
+.welcome__header-line {
+  background: #2F302C;
+  width: 19.25rem;
+  height: 0.0625rem;
+}
+.welcome__header-subtext {
+  color: var(--black-3, #7E7F7C);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.25rem;
 }/*# sourceMappingURL=style.css.map */

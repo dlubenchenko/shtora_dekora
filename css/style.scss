@@ -83,3 +83,47 @@ body {
 .shop-img {
     width: 2rem;
 }
+
+.welcome {
+    &__container {
+        display: flex;
+        justify-content: end;
+        max-width: 120rem;
+        margin: 0 auto;	
+        padding: 7rem 16.5rem;
+    }
+    &__block {
+        width: 30%;
+    }
+    &__header {}
+    &__header-text {
+        color: var(--black-1, #2F302C);
+        font-size: 1.25rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.75rem;
+    }
+    &__header-title {
+        color: #2F302C;
+        font-size: 6rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 6.25rem;
+    }
+    &__header-line {
+        background: #2F302C;
+        width: 19.25rem;
+        height: 0.0625rem;
+    }
+    &__header-subtext {
+        color: var(--black-3, #7E7F7C);
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.25rem;
+    }
+    background: url(../img/welcome/1.jpg) center center no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
