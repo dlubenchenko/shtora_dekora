@@ -87,21 +87,23 @@ body {
 .welcome {
     &__container {
         display: flex;
-        justify-content: end;
+        justify-content: flex-end;
         max-width: 120rem;
         margin: 0 auto;	
         padding: 7rem 16.5rem;
     }
     &__block {
-        width: 30%;
+        max-width: 35rem;
     }
-    &__header {}
+    &__header {
+    }
     &__header-text {
         color: var(--black-1, #2F302C);
         font-size: 1.25rem;
         font-style: normal;
         font-weight: 700;
         line-height: 1.75rem;
+        padding-block: 1.25rem;
     }
     &__header-title {
         color: #2F302C;
@@ -109,6 +111,7 @@ body {
         font-style: normal;
         font-weight: 700;
         line-height: 6.25rem;
+        padding-bottom: 1rem;
     }
     &__header-line {
         background: #2F302C;

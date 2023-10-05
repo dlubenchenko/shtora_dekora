@@ -88,13 +88,13 @@ body {
 }
 .welcome__container {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   max-width: 120rem;
   margin: 0 auto;
   padding: 7rem 16.5rem;
 }
 .welcome__block {
-  width: 30%;
+  max-width: 35rem;
 }
 .welcome__header-text {
   color: var(--black-1, #2F302C);
@@ -102,6 +102,7 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: 1.75rem;
+  padding-block: 1.25rem;
 }
 .welcome__header-title {
   color: #2F302C;
@@ -109,6 +110,7 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: 6.25rem;
+  padding-bottom: 1rem;
 }
 .welcome__header-line {
   background: #2F302C;
