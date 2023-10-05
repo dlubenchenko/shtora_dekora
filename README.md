@@ -1,0 +1,2 @@
+# shtora_dekora
+ 
