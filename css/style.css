@@ -39,9 +39,12 @@ body {
 }
 .header__shop {
   display: flex;
-  align-items: end;
+  position: relative;
   -moz-column-gap: 0.25rem;
        column-gap: 0.25rem;
+  align-items: center;
+  font-weight: 700;
+  line-height: 1.25rem;
 }
 
 .logo {
@@ -73,4 +76,7 @@ body {
 }
 .menu__item:hover {
   text-decoration: underline;
+}
+.shop-img {
+  width: 2rem;
 }/*# sourceMappingURL=style.css.map */
