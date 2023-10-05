@@ -29,7 +29,7 @@ body {
 .header__logo-text {
   display: flex;
   flex-direction: column;
-  row-gap: 0.3rem;
+  row-gap: 0.4rem;
 }
 .header__logo {
   display: flex;
@@ -45,13 +45,13 @@ body {
 }
 
 .logo {
-  width: 2.30263rem;
-  height: 2.29688rem;
+  width: 3rem;
+  height: 3rem;
 }
 
 .logo-header {
   display: flex;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 
 .tm {
@@ -60,6 +60,7 @@ body {
 
 .logo-theme {
   font-size: 0.75rem;
+  letter-spacing: 0.11rem;
 }
 
 .menu__list {
