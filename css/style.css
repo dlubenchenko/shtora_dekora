@@ -5,6 +5,11 @@
   font-family: "Roboto", sans-serif;
   font-family: "Montserrat", sans-serif;
 }
+.comment {
+  color: red;
+  font-size: 800;
+}
+
 body {
   font-family: "Roboto", sans-serif;
 }
