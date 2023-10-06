@@ -1,8 +1,10 @@
 @import url('reset.css');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;800;900&display=swap');
 
 @font-face {
     font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -52,6 +54,7 @@ body {
     height: 3rem;
 }
 .logo-header {
+    font-family: 'Montserrat', sans-serif;
     display: flex;
     font-size: 1.5rem;
     font-weight: 600;
@@ -61,7 +64,7 @@ body {
 }
 .logo-theme {
     font-size: .75rem;
-    letter-spacing: .095rem;
+    letter-spacing: .2rem;
 }
 .menu {
     &__body {}
@@ -106,9 +109,9 @@ body {
         padding-block: 1.25rem;
     }
     &__header-title {
+        font-family: 'Montserrat', sans-serif;
         color: #2F302C;
         font-size: 6rem;
-        font-style: normal;
         font-weight: 700;
         line-height: 6.25rem;
         padding-bottom: 1rem;
@@ -130,3 +133,36 @@ body {
     background-attachment: fixed;
 }
 
+.why {
+    &__container {
+        max-width: 120rem;
+        margin: 0 auto;	
+        padding: 5.12rem 16.5rem;
+    }
+    &__block {}
+    &__img {}
+    &__img-img {}
+    &__content {}
+}
+.block {
+    &__why-item {
+        width: 20rem;
+        display: flex;
+        flex-direction: column;
+        gap: 6rem 0;
+        background: #F7F7F7;
+        padding: 4rem 3rem;
+        position: relative;
+    }
+    &__why-active {
+        display: flex;
+        flex-direction: column-reverse;
+        background: #E6EFEA;
+        flex: 1 1 auto;
+    }
+    &__why-header {}
+    &__why-text {}
+    &__why-link {}
+    display: flex;
+    gap: 0 2.25rem;
+}
