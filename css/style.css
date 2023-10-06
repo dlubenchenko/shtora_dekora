@@ -151,4 +151,27 @@ body {
   flex-direction: column-reverse;
   background: #E6EFEA;
   flex: 1 1 auto;
+}
+.block__why-header {
+  color: var(--black-1, #2F302C);
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.75rem;
+  margin-bottom: 1.5rem;
+}
+.block__why-text {
+  color: var(--black-3, #7E7F7C);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.25rem;
+  margin-bottom: 2rem;
+}
+.block__why-link {
+  color: var(--black-3, #7E7F7C);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.25rem;
 }/*# sourceMappingURL=style.css.map */

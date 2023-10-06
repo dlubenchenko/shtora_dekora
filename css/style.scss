@@ -160,9 +160,29 @@ body {
         background: #E6EFEA;
         flex: 1 1 auto;
     }
-    &__why-header {}
-    &__why-text {}
-    &__why-link {}
+    &__why-header {
+        color: var(--black-1, #2F302C);
+        font-size: 1.25rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 1.75rem;
+        margin-bottom: 1.5rem;
+    }
+    &__why-text {
+        color: var(--black-3, #7E7F7C);
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.25rem;
+        margin-bottom: 2rem;
+    }
+    &__why-link {
+        color: var(--black-3, #7E7F7C);
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.25rem;
+    }
     display: flex;
     gap: 0 2.25rem;
 }
