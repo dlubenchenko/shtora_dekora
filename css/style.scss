@@ -188,3 +188,99 @@ body {
     display: flex;
     gap: 0 2.25rem;
 }
+
+.why {
+    &__container {
+        max-width: 120rem;
+        margin: 0 auto;	
+        padding: 5.12rem 16.5rem;
+    }
+    &__header {
+        text-align: center;
+        color: var(--black-1, #2F302C);
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 2.5rem;
+        margin-bottom: 2.5rem;
+    }
+    &__body {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 4.25rem;
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem 0;
+    }
+    &__item-img {}
+    &__item-header {
+        color: var(--black-1, #2F302C);
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.25rem;
+    }
+    &__item-text {
+        color: var(--black-3, #7E7F7C);
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.25rem;
+    }
+}
+
+.featured {
+    &__container {
+        max-width: 120rem;
+        margin: 0 auto;	
+        padding: 5.12rem 16.5rem;
+    }
+    &__header {
+        text-align: center;
+        color: var(--black-1, #2F302C);
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 2.5rem;
+        margin-bottom: 2.25rem;
+    }
+    &__menu {
+        margin-bottom: 4.5rem;
+    }
+    &__menu-list {
+        display: flex;
+        justify-content: center;
+        column-gap: 3rem;
+    }
+    &__menu-link {
+        color: var(--black-1, #2F302C);
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.25rem;
+    }
+    &__body {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 4.5rem 2.25rem;
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__item-img {
+        margin-bottom: 2rem;
+    }
+    &__item-product {
+        margin-bottom: .75rem;
+    }
+    &__item-rate {
+        margin-bottom: .75rem;
+    }
+    &__item-price {}
+}
