@@ -133,19 +133,21 @@ body {
     background-attachment: fixed;
 }
 
-.why {
+.popular {
     &__container {
         max-width: 120rem;
         margin: 0 auto;	
         padding: 5.12rem 16.5rem;
     }
     &__block {}
-    &__img {}
+    &__img {
+        display: flex;
+    }
     &__img-img {}
     &__content {}
 }
 .block {
-    &__why-item {
+    &__popular-item {
         width: 20rem;
         display: flex;
         flex-direction: column;
@@ -154,13 +156,13 @@ body {
         padding: 4rem 3rem;
         position: relative;
     }
-    &__why-active {
+    &__popular-active {
         display: flex;
         flex-direction: column-reverse;
         background: #E6EFEA;
         flex: 1 1 auto;
     }
-    &__why-header {
+    &__popular-header {
         color: var(--black-1, #2F302C);
         font-size: 1.25rem;
         font-style: normal;
@@ -168,7 +170,7 @@ body {
         line-height: 1.75rem;
         margin-bottom: 1.5rem;
     }
-    &__why-text {
+    &__popular-text {
         color: var(--black-3, #7E7F7C);
         font-size: 1rem;
         font-style: normal;
@@ -176,7 +178,7 @@ body {
         line-height: 1.25rem;
         margin-bottom: 2rem;
     }
-    &__why-link {
+    &__popular-link {
         color: var(--black-3, #7E7F7C);
         font-size: 1rem;
         font-style: normal;
